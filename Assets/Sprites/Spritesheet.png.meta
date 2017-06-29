@@ -1,0 +1,1150 @@
+fileFormatVersion: 2
+guid: 67a46978f51d24f46abf13ab18aa1a7c
+timeCreated: 1491778595
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DiamanteVermelho_Sprite_01
+    21300002: DiamanteVermelho_Sprite_02
+    21300004: DiamanteVermelho_Sprite_03
+    21300006: DiamanteVermelho_Sprite_04
+    21300008: DiamanteVermelho_Sprite_05
+    21300010: DiamanteVermelho_Sprite_06
+    21300012: DiamanteVerde_Sprite_01
+    21300014: DiamanteVerde_Sprite_02
+    21300016: DiamanteVerde_Sprite_03
+    21300018: DiamanteVerde_Sprite_04
+    21300020: DiamanteVerde_Sprite_05
+    21300022: DiamanteVerde_Sprite_06
+    21300024: DiamanteAzul_Sprite_01
+    21300026: DiamanteAzul_Sprite_02
+    21300028: DiamanteAzul_Sprite_03
+    21300030: DiamanteAzul_Sprite_04
+    21300032: DiamanteAzul_Sprite_05
+    21300034: DiamanteAzul_Sprite_06
+    21300036: DiamanteAmarelo_Sprite_01
+    21300038: DiamanteAmarelo_Sprite_02
+    21300040: DiamanteAmarelo_Sprite_03
+    21300042: DiamanteAmarelo_Sprite_04
+    21300044: DiamanteAmarelo_Sprite_05
+    21300046: DiamanteAmarelo_Sprite_06
+    21300048: DiamanteAzul_Canvas
+    21300050: DiamanteVermelho_Canvas
+    21300052: DiamanteVerde_Canvas
+    21300054: DiamanteAmarelo_Canvas
+    21300056: DiamantePreto_Canvas
+    21300058: Moeda_Canvas
+    21300060: Pause
+    21300062: DiamanteVazio_Canvas
+    21300064: Alien_Sprite
+    21300066: PauseTexto_Canvas
+    21300068: DiamantePreenchidoAmarelo_Canvas
+    21300070: DiamantePreenchidoAzul_Canvas
+    21300072: DiamantePreenchidoVerde_Canvas
+    21300074: DiamantePreenchidoVermelho_Canvas
+    21300076: Moeda_Sprite_01
+    21300078: Moeda_Sprite_02
+    21300080: Moeda_Sprite_03
+    21300082: Moeda_Sprite_04
+    21300084: Moeda_Sprite_05
+    21300086: Moeda_Sprite_06
+    21300088: Moeda_Sprite_07
+    21300090: Moeda_Sprite_08
+    21300092: Moeda_Sprite_09
+    21300094: Moeda_Sprite_10
+    21300096: Moeda_Sprite_11
+    21300098: Moeda_Sprite_12
+    21300100: Moeda_Sprite_13
+    21300102: Moeda_Sprite_14
+    21300104: Moeda_Sprite_15
+    21300106: Combo_Canvas
+    21300108: MaiUm_Canvas
+    21300110: Vaca_Sprite_01
+    21300112: Vaca_Sprite_02
+    21300114: Vaca_Sprite_03
+    21300116: Vaca_Sprite_04
+    21300118: Vaca_Sprite_05
+    21300120: Vaca_Sprite_06
+    21300122: Vaca_Sprite_07
+    21300124: Vaca_Sprite_08
+    21300126: Vaca_Sprite_09
+    21300128: Vaca_Sprite_10
+    21300130: Vaca_Sprite_11
+    21300132: Vaca_Sprite_12
+    21300134: Vaca_Sprite_13
+    21300136: Vaca_Sprite_14
+    21300138: Vaca_Sprite_15
+    21300140: Vaca_Sprite_16
+    21300142: Tile_Sprite_01
+    21300144: Tile_Sprite_02
+    21300146: Logo_Canvas
+    21300148: Area_Sprite
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DiamanteVermelho_Sprite_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 967
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVermelho_Sprite_02
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 967
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVermelho_Sprite_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 967
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVermelho_Sprite_04
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 967
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVermelho_Sprite_05
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 967
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVermelho_Sprite_06
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 967
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVerde_Sprite_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 904
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVerde_Sprite_02
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 904
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVerde_Sprite_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 904
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVerde_Sprite_04
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 904
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVerde_Sprite_05
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 904
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVerde_Sprite_06
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 904
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAzul_Sprite_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 841
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAzul_Sprite_02
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 841
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAzul_Sprite_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 841
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAzul_Sprite_04
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 841
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAzul_Sprite_05
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 841
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAzul_Sprite_06
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 841
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAmarelo_Sprite_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 780
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAmarelo_Sprite_02
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 780
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAmarelo_Sprite_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 780
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAmarelo_Sprite_04
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 780
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAmarelo_Sprite_05
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 780
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAmarelo_Sprite_06
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 780
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAzul_Canvas
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 855
+        width: 43
+        height: 33
+      alignment: 9
+      pivot: {x: 0.47294363, y: 0.45941925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVermelho_Canvas
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 979
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVerde_Canvas
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 918
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteAmarelo_Canvas
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 794
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamantePreto_Canvas
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 919
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Canvas
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 855
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pause
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 794
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamanteVazio_Canvas
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 976
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alien_Sprite
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 934
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PauseTexto_Canvas
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 855
+        width: 153
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamantePreenchidoAmarelo_Canvas
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 791
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamantePreenchidoAzul_Canvas
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 791
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamantePreenchidoVerde_Canvas
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 791
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DiamantePreenchidoVermelho_Canvas
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 791
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 711
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_02
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 711
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 711
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_04
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 711
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_05
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 711
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_06
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 711
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_07
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 711
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_08
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 711
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_09
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 711
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 711
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 711
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 711
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 711
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 711
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Moeda_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 711
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Combo_Canvas
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 967
+        width: 178
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MaiUm_Canvas
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 970
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_01
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 575
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_02
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 575
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_03
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 575
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_04
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 575
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_05
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 575
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_06
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 583
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_07
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 592
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_08
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 610
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_09
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 615
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 607
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 492
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 475
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 468
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 468
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 466
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vaca_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 468
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tile_Sprite_01
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 291
+        width: 139
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tile_Sprite_02
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 291
+        width: 143
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Logo_Canvas
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 7
+        width: 573
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Area_Sprite
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 423
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: swipeme_spritesheet
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
