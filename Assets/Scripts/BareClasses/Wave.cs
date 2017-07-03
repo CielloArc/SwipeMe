@@ -8,7 +8,7 @@ public class Wave
     [Tooltip("Patterns que serão utilizadas na Wave")]
     public Pattern[] patterns;
 
-    [Range(0, 1)]
+    [Range(0, 5)]
     [Tooltip("Tempo entre spawns")]
     public float delayBetweenSpawns;
 }
