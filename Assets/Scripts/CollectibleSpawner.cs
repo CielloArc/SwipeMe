@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class CollectibleSpawner : MonoBehaviour
 {
-
-
     public GameObject[] collectibles;
     public float distanceBetwenObjects;
 
@@ -21,6 +19,12 @@ public class CollectibleSpawner : MonoBehaviour
     private int collectiblesLeftToSpawn;
     private int collectiblesLeftToCollect;
 
+    private int gemsCollected = 0;
+
+    public int GetGemsCollected{ get { return gemsCollected; } }
+
+
+
     void Awake()
     {
         if (instance == null)
@@ -33,7 +37,8 @@ public class CollectibleSpawner : MonoBehaviour
     }
 
     void Start()
-    {        
+    {  
+        gemsCollected = 0;
         PopulateSpawnPoints();
         NextPattern();
     }
@@ -50,10 +55,10 @@ public class CollectibleSpawner : MonoBehaviour
         {
             do
             {
-                collectibleIndex = Random.Range(0, collectibles.Length - 1);
-
+                collectibleIndex = Random.Range(0, collectibles.Length - 1); 
             } while(collectibleIndex == lastCollectibleIndex);
         }
+
 
         lastCollectibleIndex = collectibleIndex;
         return collectibleIndex;
@@ -61,6 +66,7 @@ public class CollectibleSpawner : MonoBehaviour
 
     public void OnCollect()
     {
+        gemsCollected++;
         collectiblesLeftToCollect--;
 
         if (collectiblesLeftToCollect <= 0)

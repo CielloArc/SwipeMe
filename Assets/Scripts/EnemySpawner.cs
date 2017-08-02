@@ -39,7 +39,7 @@ public class EnemySpawner : MonoBehaviour
             bulletQueue.Enqueue(newBullet);
         }
 
-        currentWaveIndex = 0;
+        currentWaveIndex = Random.Range(0, 3);       
 
         //Começa a spawnar inimigos no mundo
         StartCoroutine(SpawnEnemy());
@@ -101,7 +101,7 @@ public class EnemySpawner : MonoBehaviour
 
                     yield return new WaitForSeconds(currentWave.delayBetweenSpawns);
                 }
-
+                yield return new WaitForSeconds(currentWave.timeBetweenPatterns);
             }
             currentWaveIndex++;
             yield return new WaitForSeconds(timeBetweenWaves);

@@ -11,4 +11,8 @@ public class Wave
     [Range(0, 5)]
     [Tooltip("Tempo entre spawns")]
     public float delayBetweenSpawns;
+
+    [Range(0, 5)]
+    [Tooltip("Tempo de espera entre patterns")]
+    public float timeBetweenPatterns;
 }

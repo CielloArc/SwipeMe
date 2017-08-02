@@ -15,6 +15,7 @@ public class CanvasManager : MonoBehaviour
     [Header("HUD ELEMENTS")]
     public Text scoreText;
     public Text comboStreakText;
+    public Text coinText;
     public FloatingCanvas[] fCanvas;
 
     public static CanvasManager instance;
@@ -40,7 +41,12 @@ public class CanvasManager : MonoBehaviour
 
     public void setComboStreakText(int comboStreak)
     {
-        comboStreakText.text = "COMBO STREAK: " + comboStreak + "X";
+        comboStreakText.text = "x" + comboStreak;
+    }
+
+    public void SetCoinText(int coinsCollected)
+    {
+        coinText.text = "x" + coinsCollected;
     }
 
     public void InstantiateFloatingObject(int canvasType, Transform location)

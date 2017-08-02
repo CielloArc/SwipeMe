@@ -6,9 +6,7 @@ public class ScoreManager : MonoBehaviour
 {
     private int score;
     private int highScore;
-
-    private int comboStreak = 1;
-    private int lastPrefabCollectedID;
+    private int coinsCollected = 0;
 
     public static ScoreManager instance;
 
@@ -19,13 +17,14 @@ public class ScoreManager : MonoBehaviour
             instance = this;
         }
 
-        score = highScore = 0;    
+        coinsCollected = score = highScore = 0;    
     }
 
     void Update()
     {
         CanvasManager.instance.setScoreText(score);
-        //Debug.Log("Score: " + score);
+        CanvasManager.instance.SetCoinText(coinsCollected);
+        //Debug.Log("Coin count: " + coinsCollected);
     }
 
     public void UpdateScore(int points)
@@ -36,6 +35,13 @@ public class ScoreManager : MonoBehaviour
         {
             UpdateHighScore(points);
         }
+
+        UpdateCoinCount();
+    }
+
+    void UpdateCoinCount()
+    {
+        coinsCollected = CollectibleSpawner.instance.GetGemsCollected / 10;
     }
 
     void UpdateHighScore(int points)
