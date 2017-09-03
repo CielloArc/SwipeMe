@@ -12,7 +12,7 @@ public class Foo : MonoBehaviour
         pm = GetComponentInParent<PlayerMovement>();
     }
 
-    public void BM()
+    public void BaseMovement()
     {
         pm.BroadcastMessage("Move");
     }

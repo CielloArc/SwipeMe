@@ -9,14 +9,33 @@ public class CanvasManager : MonoBehaviour
 
     [Header("Canvas GameObjects")]
     public GameObject GameHud;
+    public GameObject pauseHud;
     public GameObject GameOverHUD;
 
 
     [Header("HUD ELEMENTS")]
-    public Text scoreText;
-    public Text comboStreakText;
-    public Text coinText;
-    public FloatingCanvas[] fCanvas;
+    [SerializeField]
+    private Text scoreText;
+    [SerializeField]
+    private Text comboStreakText;
+    [SerializeField]
+    private FloatingCanvas[] fCanvas;
+    [SerializeField]
+    private Image soundButtonImage;
+    [SerializeField]
+    private Text gameOverScoreText;
+    [SerializeField]
+    private Text gameOverHighScoreText;
+    [SerializeField]
+    private Text gameOverCoins;
+    [SerializeField]
+    private Image diamondFillImage;
+
+    [Header("Parameters")]
+    [SerializeField]
+    private Sprite[] soundButtonSprites;
+    [SerializeField]
+    private Color32[] diamondFillColor;
 
     public static CanvasManager instance;
 
@@ -27,6 +46,7 @@ public class CanvasManager : MonoBehaviour
 
         GameHud.SetActive(true);
         GameOverHUD.SetActive(false);
+        pauseHud.SetActive(false);
     }
 
     void Update()
@@ -36,17 +56,20 @@ public class CanvasManager : MonoBehaviour
 
     public void setScoreText(int points)
     {
-        scoreText.text = "SCORE: " + points;
+        scoreText.text = points.ToString();
+    }
+
+
+    public void SetGameOverScoreText()
+    {
+        gameOverScoreText.text = ScoreManager.instance.Score.ToString();
+        gameOverHighScoreText.text = ScoreManager.instance.HighScore.ToString();
+        gameOverCoins.text = ScoreManager.instance.Coins.ToString();
     }
 
     public void setComboStreakText(int comboStreak)
     {
         comboStreakText.text = "x" + comboStreak;
-    }
-
-    public void SetCoinText(int coinsCollected)
-    {
-        coinText.text = "x" + coinsCollected;
     }
 
     public void InstantiateFloatingObject(int canvasType, Transform location)
@@ -69,10 +92,46 @@ public class CanvasManager : MonoBehaviour
         }
     }
 
+    public void SwapSoundIcon(bool status)
+    {
+        soundButtonImage.sprite = status ? soundButtonSprites[0] : soundButtonSprites[1];
+    }
+
     public void GameOverCanvas()
     {
+        SetGameOverScoreText();
         GameHud.SetActive(false);
         GameOverHUD.SetActive(true);
+    }
 
+    public void PauseCanvas(bool status)
+    {
+        GameHud.SetActive(!status);
+        pauseHud.SetActive(status);
+    }
+
+    public void FillDiamondImage(int value, EColor color)
+    {
+        diamondFillImage.color = SelectColor(color);
+        diamondFillImage.fillAmount = (float)value / 10;
+    }
+
+    private Color SelectColor(EColor color)
+    {
+        switch (color)
+        {
+            case EColor.RED:
+                return diamondFillColor[0];
+            case EColor.GREEN:
+                return diamondFillColor[1];
+            case EColor.BLUE:
+                return diamondFillColor[2];
+            case EColor.WHITE:
+                return diamondFillColor[3];
+            case EColor.RAINBOW:
+                return diamondFillColor[4];
+            default:
+                return diamondFillColor[0];
+        }
     }
 }

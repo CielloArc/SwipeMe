@@ -1,21 +1,25 @@
 fileFormatVersion: 2
-guid: 103cabec8d794a340b5ceb6184380b82
-timeCreated: 1492213058
+guid: 663b39b58dd95a448aa7649ebde193fc
+timeCreated: 1503859518
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Alien_Spritesheet_0
-    21300002: Alien_Spritesheet_1
-    21300004: Alien_Spritesheet_2
-    21300006: Alien_Spritesheet_3
-    21300008: Alien_Spritesheet_4
-    21300010: Alien_Spritesheet_5
-    21300012: Alien_Spritesheet_6
-    21300014: Alien_Spritesheet_7
-    21300016: Alien_Spritesheet_8
-    21300018: Alien_Spritesheet_9
-    21300020: Alien_Spritesheet_10
-    21300022: Alien_Spritesheet_11
+    21300000: Pulo_Vaca_0
+    21300002: Pulo_Vaca_1
+    21300004: Pulo_Vaca_2
+    21300006: Pulo_Vaca_3
+    21300008: Pulo_Vaca_4
+    21300010: Pulo_Vaca_5
+    21300012: Pulo_Vaca_6
+    21300014: Pulo_Vaca_7
+    21300016: Pulo_Vaca_8
+    21300018: Pulo_Vaca_9
+    21300020: Pulo_Vaca_10
+    21300022: Pulo_Vaca_11
+    21300024: Pulo_Vaca_12
+    21300026: Pulo_Vaca_13
+    21300028: Pulo_Vaca_14
+    21300030: Pulo_Vaca_15
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -40,9 +44,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: -1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -52,7 +56,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -106,163 +110,215 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alien_Spritesheet_0
+      name: Pulo_Vaca_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 4
-        width: 397
-        height: 502
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 0
+        width: 226
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien_Spritesheet_1
+      name: Pulo_Vaca_1
       rect:
         serializedVersion: 2
-        x: 433
-        y: 4
-        width: 396
-        height: 502
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 226
+        y: 3
+        width: 229
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien_Spritesheet_2
+      name: Pulo_Vaca_2
       rect:
         serializedVersion: 2
-        x: 849
-        y: 4
-        width: 396
-        height: 502
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 455
+        y: 1
+        width: 227
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien_Spritesheet_3
+      name: Pulo_Vaca_3
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 4
-        width: 397
-        height: 502
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 684
+        y: 1
+        width: 228
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien_Spritesheet_4
+      name: Pulo_Vaca_4
       rect:
         serializedVersion: 2
-        x: 1673
-        y: 4
-        width: 397
-        height: 502
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 913
+        y: 0
+        width: 227
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien_Spritesheet_5
+      name: Pulo_Vaca_5
       rect:
         serializedVersion: 2
-        x: 2091
-        y: 4
-        width: 396
-        height: 502
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1142
+        y: 0
+        width: 220
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien_Spritesheet_6
+      name: Pulo_Vaca_6
       rect:
         serializedVersion: 2
-        x: 2507
-        y: 4
-        width: 397
-        height: 502
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1371
+        y: 0
+        width: 226
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien_Spritesheet_7
+      name: Pulo_Vaca_7
       rect:
         serializedVersion: 2
-        x: 2926
-        y: 10
-        width: 397
-        height: 496
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1600
+        y: 0
+        width: 226
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien_Spritesheet_8
+      name: Pulo_Vaca_8
       rect:
         serializedVersion: 2
-        x: 3344
-        y: 4
-        width: 397
-        height: 502
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1829
+        y: 0
+        width: 231
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien_Spritesheet_9
+      name: Pulo_Vaca_9
       rect:
         serializedVersion: 2
-        x: 3762
-        y: 4
-        width: 396
-        height: 502
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2058
+        y: 0
+        width: 231
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien_Spritesheet_10
+      name: Pulo_Vaca_10
       rect:
         serializedVersion: 2
-        x: 4179
-        y: 4
-        width: 397
-        height: 502
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2287
+        y: 0
+        width: 228
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Alien_Spritesheet_11
+      name: Pulo_Vaca_11
       rect:
         serializedVersion: 2
-        x: 4595
-        y: 7
-        width: 396
-        height: 502
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2516
+        y: 0
+        width: 233
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pulo_Vaca_12
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 0
+        width: 226
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pulo_Vaca_13
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 1
+        width: 222
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pulo_Vaca_14
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 3
+        width: 226
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pulo_Vaca_15
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 0
+        width: 229
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     outline: []
-  spritePackingTag: swipeme_spritesheetz
+  spritePackingTag: SwipeMe_Character
   userData: 
   assetBundleName: 
   assetBundleVariant: 

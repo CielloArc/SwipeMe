@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: ec0b247f9f6ac0a44975c43670994f90
-timeCreated: 1492213337
+guid: 6e7e6d62c6eed064282a69c8a784ca25
+timeCreated: 1503859128
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Vaca_Spritesheet_0
-    21300002: Vaca_Spritesheet_1
-    21300004: Vaca_Spritesheet_2
-    21300006: Vaca_Spritesheet_3
-    21300008: Vaca_Spritesheet_4
-    21300010: Vaca_Spritesheet_5
-    21300012: Vaca_Spritesheet_6
-    21300014: Vaca_Spritesheet_7
-    21300016: Vaca_Spritesheet_8
-    21300018: Vaca_Spritesheet_9
-    21300020: Vaca_Spritesheet_10
-    21300022: Vaca_Spritesheet_11
-    21300024: Vaca_Spritesheet_12
-    21300026: Vaca_Spritesheet_13
-    21300028: Vaca_Spritesheet_14
-    21300030: Vaca_Spritesheet_15
+    21300000: Pulo_Coelho_0
+    21300002: Pulo_Coelho_1
+    21300004: Pulo_Coelho_2
+    21300006: Pulo_Coelho_3
+    21300008: Pulo_Coelho_4
+    21300010: Pulo_Coelho_5
+    21300012: Pulo_Coelho_6
+    21300014: Pulo_Coelho_7
+    21300016: Pulo_Coelho_8
+    21300018: Pulo_Coelho_9
+    21300020: Pulo_Coelho_10
+    21300022: Pulo_Coelho_11
+    21300024: Pulo_Coelho_12
+    21300026: Pulo_Coelho_13
+    21300028: Pulo_Coelho_14
+    21300030: Pulo_Coelho_15
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -44,9 +44,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: -1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -56,7 +56,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 350
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -110,168 +110,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vaca_Spritesheet_0
+      name: Pulo_Coelho_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 56
-        width: 247
-        height: 255
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Vaca_Spritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 56
-        width: 247
-        height: 224
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Vaca_Spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 835
-        y: 56
-        width: 247
-        height: 224
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Vaca_Spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 1250
-        y: 56
-        width: 247
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Vaca_Spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 1665
-        y: 56
-        width: 247
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Vaca_Spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 2080
-        y: 56
-        width: 247
-        height: 318
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Vaca_Spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 2498
-        y: 55
-        width: 246
-        height: 357
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Vaca_Spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 2912
-        y: 68
-        width: 239
-        height: 376
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Vaca_Spritesheet_8
-      rect:
-        serializedVersion: 2
-        x: 3326
-        y: 73
+        x: 3
+        y: 5
         width: 240
-        height: 374
+        height: 252
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Vaca_Spritesheet_9
+      name: Pulo_Coelho_1
       rect:
         serializedVersion: 2
-        x: 3744
-        y: 65
-        width: 237
-        height: 379
+        x: 253
+        y: 5
+        width: 240
+        height: 223
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Vaca_Spritesheet_10
+      name: Pulo_Coelho_2
       rect:
         serializedVersion: 2
-        x: 4159
-        y: 59
-        width: 247
-        height: 366
+        x: 501
+        y: 5
+        width: 238
+        height: 231
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Vaca_Spritesheet_11
+      name: Pulo_Coelho_3
       rect:
         serializedVersion: 2
-        x: 4574
-        y: 56
-        width: 247
-        height: 321
+        x: 749
+        y: 5
+        width: 240
+        height: 242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Vaca_Spritesheet_12
+      name: Pulo_Coelho_4
       rect:
         serializedVersion: 2
-        x: 4989
-        y: 56
-        width: 247
+        x: 997
+        y: 5
+        width: 238
         height: 287
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -279,46 +175,150 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Vaca_Spritesheet_13
+      name: Pulo_Coelho_5
       rect:
         serializedVersion: 2
-        x: 5404
-        y: 56
-        width: 247
-        height: 255
+        x: 1245
+        y: 5
+        width: 240
+        height: 310
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Vaca_Spritesheet_14
+      name: Pulo_Coelho_6
       rect:
         serializedVersion: 2
-        x: 5822
-        y: 56
-        width: 247
-        height: 230
+        x: 1493
+        y: 5
+        width: 240
+        height: 343
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Vaca_Spritesheet_15
+      name: Pulo_Coelho_7
       rect:
         serializedVersion: 2
-        x: 6237
-        y: 56
-        width: 247
-        height: 255
+        x: 1752
+        y: 0
+        width: 227
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pulo_Coelho_8
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 0
+        width: 226
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pulo_Coelho_9
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 0
+        width: 228
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pulo_Coelho_10
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 5
+        width: 240
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pulo_Coelho_11
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 5
+        width: 240
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pulo_Coelho_12
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 5
+        width: 240
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pulo_Coelho_13
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 5
+        width: 238
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pulo_Coelho_14
+      rect:
+        serializedVersion: 2
+        x: 3477
+        y: 5
+        width: 238
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pulo_Coelho_15
+      rect:
+        serializedVersion: 2
+        x: 3723
+        y: 5
+        width: 240
+        height: 252
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     outline: []
-  spritePackingTag: swipeme_spritesheet
+  spritePackingTag: SwipeMe_Character
   userData: 
   assetBundleName: 
   assetBundleVariant: 

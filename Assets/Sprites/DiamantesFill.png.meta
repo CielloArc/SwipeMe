@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: f287b6921c55e7f42b3a2d71f34e72e7
-timeCreated: 1491778815
+guid: 0dc2ab34c142c074fa1efb5c7f1770e8
+timeCreated: 1504399044
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -39,7 +39,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 318, y: 632, z: 309, w: 584}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -94,7 +94,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-  spritePackingTag: 
+  spritePackingTag: SwipeMe_UI
   userData: 
   assetBundleName: 
   assetBundleVariant: 

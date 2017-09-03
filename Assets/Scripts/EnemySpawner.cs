@@ -6,18 +6,31 @@ public class EnemySpawner : MonoBehaviour
 {
 
     public static Queue<Bullet> bulletQueue;
+
+    [Header("Prefabs")]
     [Tooltip("Prefab do inimigo")]
     public Bullet bulletPrefab;
 
+    [SerializeField]
+    [Tooltip("Prefab do Alerta")]
+    private GameObject alertPrefab;
+
+    [Header("Parametros")]
     [Range(1, 3)]
     [Tooltip("Tempo de espera entre waves")]
     public float timeBetweenWaves;
 
+    [Header("Waves")]
     [Tooltip("Quantidade de waves que o jogo vai ter")]
     public Wave[] waves;
 
+    [Header("Arrays")]
     [Tooltip("Local dos spawn points")]
     public Transform[] spawnPoints;
+
+    [SerializeField]
+    [Tooltip("Local onde vão spawnar os alertas")]
+    private Transform[] alertPoints;
 
 
     private Wave currentWave;
@@ -90,6 +103,7 @@ public class EnemySpawner : MonoBehaviour
                     value = (int)p.spawnPosition[spawnIndex];
 
                     //TODO: Indicar para o jogador daonde o inimigo virá.
+                    Instantiate(alertPrefab, alertPoints[value].position, Quaternion.identity);
 
                     //Seta a posicao do inimigo no mundo
                     newBullet.gameObject.transform.position = spawnPoints[value].position;

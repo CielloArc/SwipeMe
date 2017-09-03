@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
 
     public bool hasGameEnded{ get { return gameEnd; } }
 
-
+    private bool hasBeenPaused = false;
 
     void Awake()
     {
@@ -29,6 +29,13 @@ public class GameManager : MonoBehaviour
         Debug.Log("Game Started");
     }
 
+    public void PauseGame()
+    {
+        hasBeenPaused = !hasBeenPaused;
+        Time.timeScale = hasBeenPaused ? 0f : 1f;
+        CanvasManager.instance.PauseCanvas(hasBeenPaused);
+    }
+
     public void EndGame()
     {
         gameEnd = true;
@@ -37,14 +44,20 @@ public class GameManager : MonoBehaviour
 
     public void Retry()
     {
-        AudioManager.instance.Play("ButtonTouch");
-        Invoke("Reload", .5f);
+        if (ScoreManager.instance.Coins > 4)
+        {
+            AudioManager.instance.Play("ButtonTouch");
+            PlayerPrefs.SetInt("Retry", 1);
+            ScoreManager.instance.PayCoin(5);
+            Invoke("Reload", .5f);
+        }
     }
 
-    public void MainMenu()
+    public void PlayAgain()
     {
         AudioManager.instance.Play("ButtonTouch");
-        SceneManager.LoadScene("SceneMenu");
+        PlayerPrefs.SetInt("Retry", 0);
+        Invoke("Reload", .5f);
     }
 
     public void Quit()

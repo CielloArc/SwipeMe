@@ -13,10 +13,13 @@ public class AudioManager : MonoBehaviour
     [Tooltip("Mixer que gerencia o audio")]
     public AudioMixerGroup masterMixer;
 
+
     [Header("Lista de sons")]
     [Tooltip("Aumente ou diminua a lista de acordo com a quantidade de sons do jogo")]
     public Sound[] pool;
 
+
+    private bool isMuted = false;
 
     void Awake()
     {
@@ -72,5 +75,12 @@ public class AudioManager : MonoBehaviour
         Sound sound = Array.Find(pool, element => element.name == soundName);
 
         sound.source.Stop();
+    }
+
+    public void MuteSound()
+    {
+        isMuted = !isMuted;
+        AudioListener.volume = isMuted ? 0f : 1f;
+        CanvasManager.instance.SwapSoundIcon(isMuted);
     }
 }

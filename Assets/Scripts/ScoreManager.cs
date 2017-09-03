@@ -6,9 +6,15 @@ public class ScoreManager : MonoBehaviour
 {
     private int score;
     private int highScore;
-    private int coinsCollected = 0;
+    private int totalCoins;
 
     public static ScoreManager instance;
+
+    public int HighScore { get { return highScore; } }
+
+    public int Score { get { return score; } }
+
+    public int Coins { get { return totalCoins; } }
 
     void Start()
     {
@@ -17,35 +23,96 @@ public class ScoreManager : MonoBehaviour
             instance = this;
         }
 
-        coinsCollected = score = highScore = 0;    
+        GetInfo();       
+        UpdateScoreText();
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            PlayerPrefs.DeleteKey("HighScore");
+            PlayerPrefs.DeleteKey("Coins");
+
+            totalCoins = 0;
+            highScore = 0;
+        }
+    }
+
+    void UpdateScoreText()
+    {
         CanvasManager.instance.setScoreText(score);
-        CanvasManager.instance.SetCoinText(coinsCollected);
-        //Debug.Log("Coin count: " + coinsCollected);
     }
 
     public void UpdateScore(int points)
     {
         score += points;
+        PlayerPrefs.SetInt("Score", score);
 
-        if (score >= highScore)
-        {
-            UpdateHighScore(points);
-        }
-
+        UpdateHighScore();
         UpdateCoinCount();
+        UpdateScoreText();
+    }
+
+    public void PayCoin(int value)
+    {
+        totalCoins -= value;
+        PlayerPrefs.SetInt("Coins", totalCoins);
     }
 
     void UpdateCoinCount()
     {
-        coinsCollected = CollectibleSpawner.instance.GetGemsCollected / 10;
+        if (CollectibleSpawner.instance.GetGemsCollected > 0 && CollectibleSpawner.instance.GetGemsCollected % 10 == 0)
+        {            
+            totalCoins += 1;
+            //Debug.Log("TotalCoins:" + totalCoins);
+            PlayerPrefs.SetInt("Coins", totalCoins);
+        }
     }
 
-    void UpdateHighScore(int points)
+    void UpdateHighScore()
+    {   
+        if (score >= highScore)
+        {
+            highScore = score;
+            PlayerPrefs.SetInt("HighScore", highScore);
+        }
+    }
+
+    void GetInfo()
     {
-        highScore = points;
+        //Get HighScore
+        if (PlayerPrefs.HasKey("HighScore"))
+        {
+            highScore = PlayerPrefs.GetInt("HighScore");
+        }
+        else
+        {
+            highScore = 0;
+        }
+
+        //Get coins
+        if (PlayerPrefs.HasKey("Coins"))
+        {
+            totalCoins = PlayerPrefs.GetInt("Coins");
+        }
+        else
+        {
+            totalCoins = 0;
+        }
+
+        //GetScore if possible
+        int retryValue = PlayerPrefs.GetInt("Retry", 0);
+
+        if (retryValue == 1)
+        {
+            score = PlayerPrefs.GetInt("Score");
+        }
+        else
+        {
+            score = 0;
+            PlayerPrefs.SetInt("Score", score);
+        }
+
     }
 }

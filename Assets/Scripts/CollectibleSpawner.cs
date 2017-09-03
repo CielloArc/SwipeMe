@@ -64,10 +64,11 @@ public class CollectibleSpawner : MonoBehaviour
         return collectibleIndex;
     }
 
-    public void OnCollect()
+    public void OnCollect(EColor color)
     {
         gemsCollected++;
         collectiblesLeftToCollect--;
+        CanvasManager.instance.FillDiamondImage(gemsCollected % 10, color);
 
         if (collectiblesLeftToCollect <= 0)
         {
