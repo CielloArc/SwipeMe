@@ -89,9 +89,8 @@ public class GameManager : MonoBehaviour
         {
             case ShowResult.Finished:
                 Debug.Log("The ad was successfully shown.");
-                //
-                // YOUR CODE TO REWARD THE GAMER
-                // Give coins etc.
+                ScoreManager.instance.PayCoin(-5);
+                CanvasManager.instance.SetGameOverScoreText();
                 break;
             case ShowResult.Skipped:
                 Debug.Log("The ad was skipped before reaching the end.");

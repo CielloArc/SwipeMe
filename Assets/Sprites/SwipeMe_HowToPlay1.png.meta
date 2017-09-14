@@ -1,15 +1,9 @@
 fileFormatVersion: 2
-guid: 6773286c1018df548927a5daa989022d
-timeCreated: 1492280827
+guid: 12adf52f11bd984419bdd99a02e6db8d
+timeCreated: 1505331860
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Menu_Botoes_0
-    21300002: Menu_Botoes_1
-    21300004: Menu_Botoes_2
-    21300006: Menu_Botoes_3
-    21300008: Menu_Botoes_4
-    21300010: Menu_Botoes_5
+  fileIDToRecycleName: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,13 +28,13 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: -1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -98,87 +92,9 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Menu_Botoes_0
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 261
-        width: 85
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Menu_Botoes_1
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 261
-        width: 85
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Menu_Botoes_2
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 261
-        width: 85
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Menu_Botoes_3
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 261
-        width: 85
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Menu_Botoes_4
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 128
-        width: 277
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Menu_Botoes_5
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 13
-        width: 249
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
+    sprites: []
     outline: []
-  spritePackingTag: swipeme_menu
+  spritePackingTag: SwipeMe_UI
   userData: 
   assetBundleName: 
   assetBundleVariant: 
