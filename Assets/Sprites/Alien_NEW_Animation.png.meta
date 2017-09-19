@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 621251f041c8d8547991a75044604385
-timeCreated: 1504363480
+timeCreated: 1505519197
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -105,9 +105,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 21
-        y: 26
+        y: 43
         width: 344
-        height: 618
+        height: 559
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,10 +117,10 @@ TextureImporter:
       name: Alien_NEW_Animation_1
       rect:
         serializedVersion: 2
-        x: 420
-        y: 28
+        x: 419
+        y: 43
         width: 345
-        height: 616
+        height: 559
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,9 +131,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 813
-        y: 26
+        y: 43
         width: 344
-        height: 618
+        height: 559
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,9 +144,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1209
-        y: 26
+        y: 43
         width: 344
-        height: 618
+        height: 559
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,9 +157,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1608
-        y: 26
+        y: 43
         width: 344
-        height: 619
+        height: 559
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,9 +170,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1998
-        y: 26
+        y: 44
         width: 344
-        height: 618
+        height: 559
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,9 +183,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2398
-        y: 26
+        y: 43
         width: 344
-        height: 618
+        height: 559
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

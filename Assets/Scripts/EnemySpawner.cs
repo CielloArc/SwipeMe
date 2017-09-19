@@ -108,7 +108,7 @@ public class EnemySpawner : MonoBehaviour
                     //Seta a posicao do inimigo no mundo
                     newBullet.gameObject.transform.position = spawnPoints[value].position;
                     //Seta a direção que ele irá
-                    newBullet.SetDIR(spawnPoints[value].right);
+                    newBullet.SetDIR(spawnPoints[value].right, value);
                     //Ativa o inimigo
                     newBullet.gameObject.SetActive(true);
                     spawnIndex++;
